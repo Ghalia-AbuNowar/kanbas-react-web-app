@@ -1,80 +1,79 @@
+<select>
+    <option>Speed Grader</option>
+</select>
 <h2> Assignment Name </h2>
-<!-- does this need to have a default input value -->
 <input type="text" placeholder="Assignment Name" value="A1 -ENV + HTML" />
 <br />
+<br />
 
-<form id="textarea">
-    <label></label><br />
-    <textarea cols="30" rows="3"> This is the Assignment Description
+
+<textarea cols="30" rows="3">
+     This is the Assignment Description
     </textarea>
-</form>
+
+<br />
+<br />
+
+
 
 <label for="points">Points</label><br />
-<input type="text" value="100" />
+<input id="points" value="100" />
 <br />
 <br />
 
-<label for="Assignment-Group"> Assignment Group: </label><br />
-<select id="Assignment-Group">
-    <option selected value="ASSIGNMENTS">
-        ASSIGNMENTS</option>
+<label>Assignment Group</label><br />
+<select>
+    <option>ASSIGNMENT</option>
+    <option>QUIZ</option>
+    <option>EXAM</option>
+    <option>PROJECT</option>
 </select>
 <br />
 <br />
 
-<label for="Display-Grade"> Display Grade as: </label><br />
-<select id="Display-Grade">
-    <option selected value="Percentage">
+<label> Display Grade as: </label><br />
+<select>
+    <option selected>
         Percentage</option>
 </select>
 <br />
 <br />
 
-<label for="Submission-Type"> Submission Type: </label><br />
-<select id="Submission-Type">
-    <option selected value="Online">
+<label> Submission Type:</label><br />
+<select>
+    <option selected>
         Online</option>
-    <option value="In person">
+    <option>
         In person</option>
 </select>
 <br />
 <br />
 
-<label>Online Entry Optiona:</label>
-<br />
-<input type="checkbox" value="Text" name="check-Entry" id="check-Text" checked />
-<label for="check-Text">Text Entry</label> <br />
-
-<input type="checkbox" value="Website-URL" name="check-Entry" id="checkbox-URL" />
-<label for="chekbox-URL">Website URL</label> <br />
-
-<input type="checkbox" value="Recordings" name="check-Entry" id="checkbox-Recordings" checked />
-<label for="checkbox-Recordings">Media Recordings</label> <br />
-
-<input type="checkbox" value="Annotations" name="check-Entry" id="checkbox-Annotations" />
-<label for="checkbox-Annotations">Student Annotations</label><br />
-
-<input type="checkbox" value="Uploads" name="check-Entry" id="checkbox-Uploads" />
-<label for="checkbox-Uploads">File Uploads</label><br />
+<label>Online Entry Options</label><br />
+<label><input type="checkbox" name="online-entry-options" />Text Entry</label><br />
+<input type="checkbox" name="online-entry-options" />Website URL<br />
+<input type="checkbox" name="online-entry-options" />Media Recordings<br />
+<input type="checkbox" name="online-entry-options" />Student Annotations<br />
+<input type="checkbox" name="online-entry-options" />File Uploads<br />
 <br />
 
 
 <form id="Assign">
-    <label for="Assign">Assign To:</label><br />
-    <input id="Assign" value="Everyone" /><br />
+    <label>Assign To:</label><br />
+    <input value="Everyone" /><br />
     <br />
 </form>
 
-<label for="due-date"> Due </label><br />
-<input type="date" id="due-date" value="2024-01-21" /><br />
+<label> Due Date</label><br />
+<input type="date" value="2024-01-21" /><br />
 <br />
 
-<label for="Available-date"> Available from </label><br />
-<input type="date" id="Available-date" value="2024-01-21" /><br />
+<label> Available from </label><br />
+<input type="date" value="2024-01-21" /><br />
 <br />
 
-<label for="until-date"> Until </label><br />
-<input type="date" id="until-date" value="2024-01-21" /><br />
+<label> Until </label><br />
+<input type="date" value="2024-01-21" /><br />
 <br />
 
 <button type="button">Cancel</button>
