@@ -1,0 +1,48 @@
+.wd-fa-color-grey-grades {
+    color: darkgray
+}
+
+.wd-button-grey-grades {
+    --bs-btn-bg: #F5F5F5;
+    --bs-btn-border-color: #F5F5F5;
+    --bs-btn-hover-bg: grey;
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-active-bg: grey;
+    --bs-btn-active-border-color: grey;
+    --bs-btn-color: black;
+}
+
+.wd-dropdown-grades {
+    vertical-align: middle;
+    width: 150px;
+    display: inline;
+    background-color: #F5F5F5;
+    border: #F5F5F5;
+    color: black;
+}
+
+.wd-dropdown-grades-select:focus{
+    vertical-align: middle;
+    width: 150px;
+    display: inline;
+    background-color: white;
+    border: #F5F5F5;
+    color: black;
+}
+
+.wd-table-names-red{
+    color: red !important;
+
+}
+
+.wd-bradcrumb{
+    color: red;
+    text-decoration-line: none;
+    font-size: 1.2em;
+}
+
+.wd-bradcrumb-a{
+    color: gray;
+    text-decoration-line: none;
+    font-size: 1.2em;
+}

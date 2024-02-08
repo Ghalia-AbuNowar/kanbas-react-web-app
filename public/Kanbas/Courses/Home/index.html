@@ -1,99 +1,129 @@
-<table width="60%">
-    <tbody>
-        <tr>
-            <td>
-                <button type="button">Collapse all</button>
-                <button type="button">Expand all</button>
+<html>
 
-                <button type="button">View Progress</button>
+<head>
+    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Home/index.css" />
+    <link rel="stylesheet" type="text/css" href="/Kanbas/styles.css" />
+    <script src="https://kit.fontawesome.com/ffef55f456.js" crossorigin="anonymous"></script>
+</head>
 
-                <select>
-                    <option>Publish All</option>
-                    <option>Unpublish All</option>
-                </select>
+<body>
 
-                <button type="button">Module</button>
+    <div class="d-flex justify-content-end wd-button-padding">
 
-            </td>
+        <button class="btn btn-primary wd-button-grey me-1">Collapse All</button>
+        <button class="btn btn-primary wd-button-grey me-1">Expand All</button>
+        <button class="btn btn-primary wd-button-grey me-1">View Progress</button>
 
-            <td>
-                <h2>Course Status</h2>
-            </td>
-        </tr>
 
-        <tr>
-            <td>
-                <ul>
-                    <li> Week 0 - INTRO
-                        <ul>
-                            <li> LEARNING OBJECTIVES
-                                <ul>
-                                    <li>Introduction to the course</li>
-                                    <li>Learn what is Web Development</li>
-                                    <li>Creating a development enviroment</li>
-                                    <li>Creating a Web Application</li>
-                                    <li>Getting started with the 1st assignment</li>
-                                </ul>
-                            </li>
-                            <li> READING
-                                <ul>
-                                    <li> Full Stack Developer - Chapter 1 - Introduction</li>
-                                    <li> Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
-                                </ul>
-                            </li>
+        <select class="form-select wd-dropdown wd-dropdown-select me-1">
+            <option>Publish All</option>
+            <option>Unpublish All</option>
+            <option>Unpublish All</option>
+        </select>
+        <button class="btn btn-primary wd-button-red me-1">+ Module</button>
+        <button class="btn btn-primary wd-button-grey me-1"> <i class="fa fa-ellipsis-vertical"></i></button>
 
-                            <li> SLIDES
-                                <ul>
-                                    <li> <a href="#">Introduction To Web Development Links
-                                            to an
-                                            external site</a> </li>
-                                    <li> <a href="#">Creating an HTTP server with Node.js
-                                            Links
-                                            to an external site</a> </li>
-                                    <li> <a href="#">Creating a Reaact Application Link to
-                                            an
-                                            external site</a></li>
-                                </ul>
-                            </li>
+
+    </div>
+    <hr />
+
+    <div>
+        <ul class="list-group wd-modules">
+            <li class="list-group-item">
+                <div>
+                    Week 0 - INTRO
+                    <span class="float-end">
+                        <button class="btn btn-primary btn-lg me-3"><i
+                                class="fa fa-circle-check  wd-fa-color-green wd-fa-color-bg-grey"></i></button>
+                        <button class="btn btn-primary btn-lg me-3"><i
+                                class="fa-solid fa-plus wd-fa-color-grey wd-fa-color-bg-grey "></i></button>
+                        <button class="btn btn-primary btn-lg me-3"><i
+                                class="fa fa-ellipsis-vertical wd-fa-color-grey wd-fa-color-bg-grey"></i></button>
+                    </span>
+                </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item"> Learning Objective
+                        <ul class="list-group">
+                            <li class="list-group-item"> Introduction to the course</li>
+                            <li class="list-group-item"> Learn what is Web Development</li>
+                            <li class="list-group-item"> Creating a development enviroment</li>
+                            <li class="list-group-item"> Creating a Web Application</li>
+                            <li class="list-group-item"> Getting started with the 1st assignment</li>
                         </ul>
-                    <li> Week 1 - HTML
-                        <ul>
-                            <li>LEARNING OBJECTIVE</li>
-                            <ul>
-                                <li> Learn how to create user interface with HTML</li>
-                                <li> Keep working on assignment 1 </li>
-                                <li> Deploy the assignment to netify</li>
-                            </ul>
+                    </li>
 
 
-                            <li> READING </li>
-                            <ul>
-                                <li> Full Stack Developer - Chapter 1 - Introduction</li>
-                                <li> Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML
-                                </li>
-                            </ul>
+                    <li class="list-group-item"> READINGS
+                        <ul class="list-group">
+                            <li class="list-group-item"> Full Stack Developer - Chapter 1 - Introduction</li>
+                            <li class="list-group-item"> Full Stack Developer - Chapter 2 - Creating User Interfaces
+                                With HTML</li>
+                        </ul>
+                    </li>
+
+                    <li class="list-group-item"> SLIDES
+                        <ul class="list-group">
+
+                            <li class="list-group-item">
+                                <i class="fa-solid fa-link wd-fa-color-green"></i>
+                                <a href="#" class="wd-link">Introduction To Web Development Links to an external
+                                    site</a>
+                            </li>
+
+                            <li class="list-group-item"> <i class="fa-solid fa-link wd-fa-color-green"></i>
+                                <a href="#" class="wd-link">Creating an HTTP server with Node.js Links to an external
+                                    site</a>
+                            </li>
+                            <li class="list-group-item"> <i class="fa-solid fa-link wd-fa-color-green"></i>
+                                <a href="#" class="wd-link">Creating a Reaact Application Link to an external site</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
-            </td>
-            <td>
-                <ul>
-                    <li> <a href="#">Imorting Existing Content</a> </li>
-                    <li> <a href="#">Importing From Commons</a> </li>
-                    <li> <a href="#">Choose Home Page</a></li>
-                    <li> <a href="#">View Course Stream</a> </li>
-                    <li> <a href="#">New Announcement</a> </li>
-                    <li> <a href="#">New Analytics</a></li>
-                    <li> <a href="#">View Course Notifications</a></li>
+
+
+
+
+            <li class="list-group-item">
+                <div>Week 1 - HTML
+                    <span class="float-end">
+                        <button class="btn btn-primary btn-lg me-3"><i
+                                class="fa fa-circle-check  wd-fa-color-green wd-fa-color-bg-grey"></i></button>
+                        <button class="btn btn-primary btn-lg me-3"><i
+                                class="fa-solid fa-plus wd-fa-color-grey wd-fa-color-bg-grey "></i></button>
+                        <button class="btn btn-primary btn-lg me-3"><i
+                                class="fa fa-ellipsis-vertical wd-fa-color-grey wd-fa-color-bg-grey"></i></button>
+                    </span>
+                </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item"> Learning Objective
+                        <ul class="list-group">
+                            <li class="list-group-item"> Learn how to create user interface with HTML</li>
+                            <li class="list-group-item"> Keep working on assignment 1 </li>
+                            <li class="list-group-item"> Deploy the assignment to netify</li>
+                        </ul>
+                    </li>
+
+                    <li class="list-group-item"> READINGS
+                        <ul class="list-group">
+                            <li class="list-group-item"> Full Stack Developer - Chapter 1 - Introduction</li>
+                            <li class="list-group-item"> Full Stack Developer - Chapter 2 - Creating User Interfaces
+                                With HTML</li>
+                        </ul>
+                    </li>
+                    
+                    
                 </ul>
-                <h2> Comming Up</h2>
-                <a href="#">View Calander</a></li>
-                <ul>
-                    <li> <a href="#">Lecture CS4550 Sept 7 at 11:45 am</a> </li>
-                    <li> <a href="#">Lecture CS4550 Sept 11 at 11:45 am</a> </li>
-                    <li> <a href="#">Lecture CS4550 Sept 11 at 6:00 pm</a></li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+
+
