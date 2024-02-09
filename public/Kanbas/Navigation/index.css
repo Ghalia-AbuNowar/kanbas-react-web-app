@@ -6,6 +6,15 @@
   width: 80px;
 }
 
+.wd-kanbas-navigation-horizantal {
+  background-color: black;
+  list-style: none;
+  padding: 0px; 
+  padding-left: 2em;
+  margin: 0px;
+}
+
+
 .wd-pos-fixed {
   position: fixed;
   Left: 0px;
@@ -42,4 +51,35 @@
   color: red;
   font-size: 2.5em;
   margin-bottom: 5px;
+}
+
+
+.wd-kanbas-navigation-horizantal-collapse {
+  background-color: white;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 90wv;
+}
+
+.wd-kanbas-navigation-horizantal-collapse li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.wd-kanbas-navigation-horizantal-collapse a {
+  color: red;
+  text-decoration: none;
+}
+
+.wd-nav-button-white {
+  --bs-btn-bg: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: black;
+  --bs-btn-color: white;
 }

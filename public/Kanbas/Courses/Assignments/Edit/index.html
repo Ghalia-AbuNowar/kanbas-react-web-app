@@ -1,4 +1,150 @@
-<select>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/ffef55f456.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="/Kanbas/styles.css" />
+    <link rel="stylesheet" href="/Kanbas/Courses/Assignments/Edit/index.css" />
+
+</head>
+
+<body>
+
+
+    <div class="d-flex justify-content-end">
+        <button class="btn btn-primary wd-button-white-edit me-1"><i class="fa-regular fa-circle-check"></i>
+            Published</button>
+        <button class="btn btn-primary wd-button-grey-edit me-1"> <i class="fa fa-ellipsis-vertical"></i></button>
+    </div>
+    <hr />
+
+
+
+    <div class="col-sm-12 m-3">
+        <label for="assignment" class="form-label fw-bold">Assignment Names</label>
+        <input type="text" class="form-control" id="assignment" placeholder="Assignment Name" value="A1 - ENV + HTML">
+    </div>
+
+    <div class="col-sm-12 m-3">
+        <textarea class="form-control" id="textarea1" rows="5">Creating KANBAS using HTML</textarea>
+    </div>
+
+    <div class="m-3 row">
+        <label for="points" class="col-sm-2 col-form-label">
+            Points</label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" id="points" value="100">
+        </div>
+    </div>
+
+
+    <div class="m-3 row">
+        <label for="assignmend-group" class="col-sm-2 col-form-label">
+            Assignment Group</label>
+        <div class="col-sm-8">
+            <select class="form-select me-1">
+                <option>ASSIGNMENT</option>
+                <option>QUIZ</option>
+                <option>EXAM</option>
+                <option>PROJECT</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="m-3 row">
+        <label for="display-grade" class="col-sm-2 col-form-label">
+            Display Grade as</label>
+        <div class="col-sm-8">
+            <select class="form-select me-1">
+                <option> Percentage</option>
+                <option> Points</option>
+            </select>
+        </div>
+    </div>
+
+    </fieldset>
+    <div class="row m-3">
+        <div class="col-sm-8 offset-sm-2">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="r6" />
+                <label class="form-check-label" for="r6">
+                    Do not count this assignment towards the final grade</label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="m-3 row">
+        <label for="assign-to" class="col-sm-2 col-form-label">
+            Assign </label>
+        <div class="col-sm-8 wd-assign-boarder">
+            <label for="assign-to" class="col-sm-2 col-form-label">
+                Assign To</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="assign" value="Everyone">
+            </div>
+
+            <label for="due-date" class="col-sm-2 col-form-label">
+                Due Date</label>
+            <div class="col-sm-6">
+                <input type="date" value="2024-01-21" />
+            </div>
+
+            <label for="available-date" class="col-sm-2 col-form-label">
+                Available from</label>
+            <div class="col-sm-3">
+                <input type="date" value="2024-01-21" />
+            </div>
+
+            <label for="until-date" class="col-sm-2 col-form-label">
+                Until</label>
+            <div class="col-sm-3 mb-3">
+                <input type="date" value="2024-01-21" />
+            </div>
+
+            <div class="col-sm-12">
+                <button class="btn btn-primary btn-block wd-button-grey-edit "> + </button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <hr \>
+
+    </fieldset>
+    <div class="row m-3">
+        <div class="col-sm-5">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="r7" />
+                <label class="form-check-label" for="r7">
+                    Notify users that thus content has changed</label>
+            </div>
+        </div>
+
+        <div class="col-sm-7 d-flex justify-content-end">
+            <button class="btn btn-primary wd-button-grey-edit me-1">Cancel</button>
+            <button class="btn btn-primary wd-button-red-edit me-1">Save</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <select>
     <option>Speed Grader</option>
 </select>
 <h2> Assignment Name </h2>
@@ -81,4 +227,4 @@
 
 <a href="/Kanbas/Courses/Assignments/screen.html"> <button type="button">Cancel</button> </a>
 
-<a href="/Kanbas/Courses/Assignments/screen.html"> <button type="button">Save</button> </a>
+<a href="/Kanbas/Courses/Assignments/screen.html"> <button type="button">Save</button> </a> -->

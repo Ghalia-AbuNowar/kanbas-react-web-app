@@ -1,0 +1,50 @@
+.wd-button-grey-edit {
+    --bs-btn-bg: #F5F5F5;
+    --bs-btn-border-color: #F5F5F5;
+    --bs-btn-hover-bg: grey;
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-active-bg: grey;
+    --bs-btn-active-border-color: grey;
+    --bs-btn-color: black;
+}
+
+.wd-button-red-edit {
+    --bs-btn-bg: #D41B2C;
+    --bs-btn-border-color: #D41B2C;
+    --bs-btn-hover-bg: #B81726;
+    --bs-btn-hover-border-color: #B81726;
+    --bs-btn-active-bg: #B81726;
+    --bs-btn-active-border-color: #B81726;
+}
+
+
+.wd-button-white-edit {
+    --bs-btn-bg: white;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-bg: grey;
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-active-bg: grey;
+    --bs-btn-active-border-color: grey;
+    --bs-btn-color: rgb(4, 221, 4);
+}
+
+.wd-assign-boarder {
+    border: solid;
+    border-color: #F5F5F5;
+
+}
+
+
+
+.wd-bradcrumb {
+    color: red;
+    text-decoration-line: none;
+    font-size: 1.2em;
+}
+
+.wd-bradcrumb-a {
+    color: gray;
+    text-decoration-line: none;
+    font-size: 1.2em;
+}
+

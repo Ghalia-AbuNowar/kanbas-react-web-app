@@ -94,7 +94,7 @@
                             Quizzes</a>
                     </li>
 
-                    <li  class="wd-active">
+                    <li class="wd-active">
                         <a href="/Kanbas/Courses/Grades/screen.html">
                             Grades</a>
                     </li>
@@ -161,316 +161,334 @@
         <div class="col-sm-13 col-md-8">
             <div class="p-4">
 
-                <nav aria-label="breadcrumb">
+                <nav style="--bs-breadcrumb-divider: '>'; "aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#" class="wd-bradcrumb">Course Name</a></li>
+                        <li class="breadcrumb-item"><a href="#" class="wd-bradcrumb">CS5610</a></li>
                         <li class="breadcrumb-item"><a href="#" class="wd-bradcrumb">Spring</a></li>
                         <li class="breadcrumb-item"><a href="#" class="wd-bradcrumb">Section 7</a></li>
                         <li class="breadcrumb-item active wd-bradcrumb-a" aria-current="page">Grades</li>
                     </ol>
                 </nav>
 
-                <div class="d-flex justify-content-end mb-3">
-                    <button class="btn btn-primary wd-button-grey-grades me-2"><i class="fa-solid fa-file-import"></i>
-                        Import</button>
-                    <!-- <button class="btn btn-primary wd-button-grey-grades me-2"><i class="fa-solid fa-file-export"></i>Export</button> -->
-            
-                    <div class="dropdown">
-                        <button class="btn btn-primary dropdown-toggle  wd-button-grey-grades me-2" type="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-file-export"></i> Export
-                        </button>
-                    </div>
-                    <button class="btn btn-primary wd-button-grey-grades me-2"> <i class="fa-solid fa-gear"></i></button>
-                </div>
-            
-                <div class="mb-3">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <label for="name" class="form-label fw-bold">Student Names</label>
-                            <input type="text" class="form-control" id="name" placeholder="Search Students">
+                <html>
+
+                <head>
+                    <script src="https://kit.fontawesome.com/ffef55f456.js" crossorigin="anonymous"></script>
+                    <link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css" />
+                    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.css" />
+                    <link rel="stylesheet" type="text/css" href="/Kanbas/styles.css" />
+                    <link rel="stylesheet" href="/Kanbas/Courses/Grades/index.css" />
+
+                </head>
+
+                <body>
+
+                    <div class="d-flex justify-content-end mb-3">
+                        <button class="btn btn-primary wd-button-grey-grades me-2"><i
+                                class="fa-solid fa-file-import"></i>
+                            Import</button>
+
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle  wd-button-grey-grades me-2" type="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-file-export"></i> Export
+                            </button>
                         </div>
-                
-                        <div class="col-sm-6">
-                            <label for="assignment" class="form-label fw-bold">Assignment Names</label>
-                            <input type="text" class="form-control" id="assignment" placeholder="Search Assignments">
+                        <button class="btn btn-primary wd-button-grey-grades me-2"> <i
+                                class="fa-solid fa-gear"></i></button>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="name" class="form-label fw-bold">Student Names</label>
+                                <input type="text" class="form-control" id="name" placeholder="Search Students">
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label for="assignment" class="form-label fw-bold">Assignment Names</label>
+                                <input type="text" class="form-control" id="assignment"
+                                    placeholder="Search Assignments">
+                            </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="mb-3">
-                    <button class="btn btn-primary wd-button-grey-grades me-2"> <i class="fa-solid fa-filter"></i> Apply
-                        Filters</button>
-                </div>
-            
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr class="table-active">
-                                <th scope="col">Student Name</th>
-                                <th scope="col">A1 SETUP out of 100</th>
-                                <th scope="col">A2 HTML Out of 100</th>
-                                <th scope="col">A3 CSS Out of 100</th>
-                                <th scope="col">A4 BOOTSTRAP Out of 100</th>
-                                <th scope="col">A5 JAVASCRIPT out of 100</th>
-                                <th scope="col">A6 REACT Out of 100</th>
-                                <th scope="col">A7 REDUX Out of 100</th>
-                                <th scope="col">A8 NODE out of 100</th>
-                                <th scope="col">A9 MANGO Out of 100</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="wd-table-names-red">Alice Wonderland</td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-                            </tr>
-                            <tr class="table-light">
-                                <td class="wd-table-names-red">Princess Leia</td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-                            </tr>
-            
-                            <tr>
-                                <td class="wd-table-names-red">Lando Calresian</td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-                            </tr>
-            
-                            <tr class="table-light">
-                                <td class="wd-table-names-red">Boba Fet</td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                            </tr>
-            
-                            <tr>
-                                <td class="wd-table-names-red">Darth Vader</td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-                            </tr>
-            
-                            <tr class="table-light">
-                                <td class="wd-table-names-red">Obi-Wan Kenobi</td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-            
-                                <td align="center">
-                                    <input value="100" type="number" max="100" min="0" />
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
 
+                    <div class="mb-3">
+                        <button class="btn btn-primary wd-button-grey-grades me-2"> <i class="fa-solid fa-filter"></i>
+                            Apply
+                            Filters</button>
+                    </div>
 
-</body>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="col">Student Name</th>
+                                    <th scope="col">A1 SETUP out of 100</th>
+                                    <th scope="col">A2 HTML Out of 100</th>
+                                    <th scope="col">A3 CSS Out of 100</th>
+                                    <th scope="col">A4 BOOTSTRAP Out of 100</th>
+                                    <th scope="col">A5 JAVASCRIPT out of 100</th>
+                                    <th scope="col">A6 REACT Out of 100</th>
+                                    <th scope="col">A7 REDUX Out of 100</th>
+                                    <th scope="col">A8 NODE out of 100</th>
+                                    <th scope="col">A9 MANGO Out of 100</th>
+                                </tr>
 
-</html>
+                                <tr>
+                                    <td class="wd-table-names-red">Alice Wonderland</td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="wd-table-names-red">Princess Leia</td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="wd-table-names-red">Lando Calresian</td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="wd-table-names-red">Boba Fet</td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                </tr>
+
+                                <tr>
+                                    <td class="wd-table-names-red">Darth Vader</td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="wd-table-names-red">Obi-Wan Kenobi</td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+
+                                    <td align="center">
+                                        <input value="100" type="number" max="100" min="0" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
 
 
+                </body>
+
+                </html>
 
 
-<!-- <!DOCTYPE html>
+
+
+
+                <!-- <!DOCTYPE html>
 
 <head></head>
 

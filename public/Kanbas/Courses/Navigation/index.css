@@ -2,9 +2,10 @@
     background-color: white;
     list-style: none;
     padding: 0px;
-    width: 125px;
+    width: 130px;
     margin: 0px;
-    margin-left: 20px;
+    /* margin-top: 3em; */
+    margin-left: 15px;
 }
 
 .wd-navigation li {
@@ -32,7 +33,7 @@
     position: fixed;
     /* Left: 0px;
     top: 0; */
-    top: 2em;
+    top: 3.5em;
     z-index: 1030;
     /* width: 200px; */
     height: 100vh;

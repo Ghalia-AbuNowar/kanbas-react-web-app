@@ -1,0 +1,33 @@
+.wd-status{
+    margin-top : 3em;
+}
+
+.wd-fa-color-grey-status {
+    color: darkgray
+}
+
+.wd-button-grey-status {
+    --bs-btn-bg: #F5F5F5;
+    --bs-btn-border-color: #F5F5F5;
+    --bs-btn-hover-bg: grey;
+    --bs-btn-hover-border-color: grey;
+    --bs-btn-active-bg: grey;
+    --bs-btn-active-border-color: grey;
+    --bs-btn-color: black;
+}
+
+.wd-button-green-status {
+    --bs-btn-bg: green;
+    --bs-btn-border-color: green;
+    --bs-btn-hover-bg: rgba(0, 128, 0, 0.621);
+    --bs-btn-hover-border-color: rgba(0, 128, 0, 0.621);;
+    --bs-btn-active-bg: rgba(0, 128, 0, 0.621);;
+    --bs-btn-active-border-color: rgba(0, 128, 0, 0.621);;
+    --bs-btn-color: white;
+}
+
+.wd-link-status {
+    color: red;
+    text-decoration-line: none;
+}
+

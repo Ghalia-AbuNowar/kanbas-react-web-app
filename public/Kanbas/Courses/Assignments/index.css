@@ -52,6 +52,14 @@
 }
 
 
+.wd-button-transparent-assignment {
+    --bs-btn-bg: transparent;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: transparent;
+}
+
 
 
 .wd-button-padding {
