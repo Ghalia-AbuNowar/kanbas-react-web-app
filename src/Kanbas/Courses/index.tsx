@@ -19,7 +19,7 @@ function Courses() {
     console.log(pathname);
     const routeName = pathname.split('/').pop() || 'Home';;
     return (
-        <div>
+        <div >
             <div className="d-flex wd-breadcrumb-icon  mt-3">
                 <div className="mt-0.5">
                     <HiMiniBars3 />
@@ -42,13 +42,14 @@ function Courses() {
             </div>
 
 
+            <div className="d-flex flex-inline">
+                <div className="wd-pos-fixed-courses d-none d-md-block">
+                    <CourseNavigation />
+                </div>
 
-            <div className="wd-pos-fixed-courses d-none d-md-block">
-                <CourseNavigation />
-            </div>
-            <div>
-                <div className="overflow-y-scroll position-fixed bottom-0 end-0"
-                    style={{ top: "150px", left: "350px"}} >
+
+                <div className="posistion-fixed bottom-0 end-0"
+                    style={{ top: "150px", left: "350px" }} >
                     <Routes>
                         <Route path="/" element={<Navigate to="Home" />} />
                         <Route path="Home" element={<Home />} />
@@ -71,8 +72,8 @@ function Courses() {
                     </Routes>
                 </div>
             </div>
-
         </div>
+
     );
 }
 export default Courses;
