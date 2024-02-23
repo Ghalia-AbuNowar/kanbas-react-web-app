@@ -1,0 +1,67 @@
+.wd-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 130px;
+    margin: 0px;
+    /* margin-top: 3em; */
+    margin-left: 15px;
+}
+
+.wd-navigation li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wd-navigation li.wd-active {
+    border-left: 2px solid black;
+}
+
+.wd-navigation li.wd-active a {
+    color: black;
+}
+
+.wd-navigation a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-pos-fixed-courses {
+    position: sticky;
+    Left: 90px;
+    /* top: 0px; */
+    /* top: 3.5em; */
+    z-index: 1030;
+    width: 200px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* margin-left: 80px; */
+
+}
+
+.wd-breadcrumb-icon{
+    font-size: x-large;
+    color: gray;
+
+}
+
+.breadcrumb-item a {
+    color: red; 
+    text-decoration: none; 
+}
+
+
+.custom-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: ">"; 
+    color: gray;
+}
+
+.wd-container{
+    position: sticky;
+    
+}
+

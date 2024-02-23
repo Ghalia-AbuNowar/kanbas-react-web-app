@@ -1,0 +1,85 @@
+.wd-kanbas-navigation {
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 80px;
+}
+
+.wd-kanbas-navigation-horizantal {
+  background-color: black;
+  list-style: none;
+  padding: 0px; 
+  padding-left: 2em;
+  margin: 0px;
+}
+
+
+.wd-pos-fixed {
+  position: fixed;
+  Left: 0px;
+  top: 0;
+  z-index: 1030;
+  /* width: 100vw; */
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+.wd-kanbas-navigation li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.wd-kanbas-navigation li.wd-active {
+  background-color: white;
+}
+
+.wd-kanbas-navigation li.wd-active a {
+  color: red;
+}
+
+.wd-kanbas-navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.wd-kanbas-navigation a i {
+  color: red;
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+
+.wd-kanbas-navigation-horizantal-collapse {
+  background-color: white;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  width: 90wv;
+}
+
+.wd-kanbas-navigation-horizantal-collapse li {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.wd-kanbas-navigation-horizantal-collapse a {
+  color: red;
+  text-decoration: none;
+}
+
+.wd-nav-button-white {
+  --bs-btn-bg: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-bg: black;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-active-bg: black;
+  --bs-btn-active-border-color: black;
+  --bs-btn-color: white;
+}

@@ -1,0 +1,23 @@
+.wd-pos-fixed-nav {
+    position: fixed;
+    z-index: 1030;
+    left: 0;
+    top:50px;
+    /* width: 100vw; */
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  
+  }
+  .wd-kanbas-navigation-horizantal {
+    background-color: black;
+    list-style: none;
+    padding: 0px; 
+    padding-left: 2em;
+    margin: 0px;
+  }
+  
+
+    .wd-kanbas-nav {
+      position: fixed;
+  }
