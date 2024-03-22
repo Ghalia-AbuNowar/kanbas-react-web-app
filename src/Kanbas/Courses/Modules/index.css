@@ -59,6 +59,15 @@
     --bs-btn-active-border-color: #B81726;
 }
 
+.wd-button-green {
+    --bs-btn-bg: green;
+    --bs-btn-border-color: green;
+    --bs-btn-hover-bg: rgb(16, 164, 16);
+    --bs-btn-hover-border-color: rgb(16, 164, 16);
+    --bs-btn-active-bg: rgba(0, 128, 0, 0.681);
+    --bs-btn-active-border-color: rgba(0, 128, 0, 0.681);
+}
+
 .wd-dropdown {
     vertical-align: middle;
     width: 150px;

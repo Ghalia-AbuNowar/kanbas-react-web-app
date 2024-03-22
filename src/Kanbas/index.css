@@ -21,3 +21,7 @@
     .wd-kanbas-nav {
       position: fixed;
   }
+
+  .margin-left-custom {
+    margin-left: 130px; 
+}
